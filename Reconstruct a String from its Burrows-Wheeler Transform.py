@@ -14,6 +14,8 @@ text = ''
 index = 0
 while len(text) < len(transform):
     text += sorted[index]
+    print(text, index)
     index = match[index]
+
 
 print(text[1:] + '$')
